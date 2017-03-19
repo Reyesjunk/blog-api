@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Ekzxz+WxIj8cWrB3Ipn7is5cVgqtWBp5V54/9TfDlcmfmmvd/gYRHsdu3cUzQSSbOvOKSvQf0Xwzit/LF02vABDCb98pprPgzpF9qK0U8Ywr3XmqHbKDQrDsQsCK2T9cHjzdd5zO89paw7m+Zn3PUtDeD/Zh+cA/qL+mge41Bja7jSGJvRbul1J074T0qR4O/DssNvpGJHdHObqNu56fxo9YVUXb0ieMT6ajb7IXvdHVeTtJxVQIECZr2LXp4B72Grm1hEWdXP/VTm46ezjU/y4Q5VqcXUMEbUbbzwHfvt3ZkaXPxvnfyPYdBGC8QGgAzSh3ZCCR0q1SnfVKM68vMQUFpRm/f9EITW69z9cIHYQVQKb0WjNnZHN0PlpOSVTXiSJ5UO2C4vRn79fgCGtxFqJHsiWjV4F/YbYzFbuv55n4xyeeDB9TZH3BLWCNXgjR1JMvE7n3ro3vFv1um+mVJitggKdtaB2wX4STDWbuhDtjFt80eDrPsVhhHDl1TpKgUAb/tcVx11DeClXYVXasQ25OwR5eOK/bWN3YlZ/bXkWSpF8zgtbZTNdi1W7bAjE5+r1u8nz6BA5KtGpE5HCS5LhwcQGzwCE+loTcbk7eGm7cjpuLwmvJq+zL9TcTN5UeDe0tEMbkHd9GDt4HEsVfUJJjB+Mj8ynsTbXrhfxJI1U=
+  app: blog-api-b
+  on: fierce-brook-11354
+    repo: Reyesjunk/blog-api-b
