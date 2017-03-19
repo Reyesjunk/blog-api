@@ -10,16 +10,19 @@
     "uuid": "^3.0.1"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
     "eslint": "^3.17.1",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint-plugin-react": "^6.10.0",
+    "mocha": "^3.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cfv7/blog-api.git"
+    "url": "git+https://github.com/reyesjunk/blog-api-b.git"
   },
   "keywords": [
     "blog",
@@ -29,7 +32,7 @@
   "author": "colin & ramon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cfv7/blog-api/issues"
+    "url": "https://github.com/reyesjunk/blog-api-b/issues"
   },
-  "homepage": "https://github.com/cfv7/blog-api#readme"
+  "homepage": "https://github.com/reyesjunk/blog-api-b#readme"
 }
